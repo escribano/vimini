@@ -19,7 +19,7 @@
 ######Choosing which profile to use:
 Double click the app or launch it from the dock.
 
-    The first time it is run, it will not yet have any iTerm profile set, so you will be presented with a list of profiles.  If you choose one, then that profile will be used when you open files with Vimini.
+*The first time it is run, it will not yet have any iTerm profile set, so you will be presented with a list of profiles.  If you choose one, then that profile will be used when you open files with Vimini.*
 
 
 ######Opening files:
