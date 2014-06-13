@@ -1,3 +1,8 @@
+Vimini 0.1
+---
+---
+
+
 ####Requirements:
 
 *  The `vim` command should be on your system.
@@ -46,3 +51,6 @@ Double click the app or launch it from the dock.
 If you delete the profile that Vimini is set to use, then you should choose another profile.
 
 Profiles with spaces in their names will be ignored, because that is how the profile named "Hotkey Window" is being ignored.
+
+---
+*[github repository](https://github.com/dustractor/vimini)*
