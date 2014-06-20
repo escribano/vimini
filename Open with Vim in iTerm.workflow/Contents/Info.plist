@@ -12,14 +12,9 @@
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
-			<key>NSRequiredContext</key>
-			<dict>
-				<key>NSApplicationIdentifier</key>
-				<string>com.apple.finder</string>
-			</dict>
 			<key>NSSendFileTypes</key>
 			<array>
-				<string>public.content</string>
+				<string>public.item</string>
 			</array>
 		</dict>
 	</array>
