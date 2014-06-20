@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	set logics to load script file "Applications:V2_vimini.app:Contents:Resources:Scripts:logics.scpt"	tell logics		set patharg to ""		set workdir to "."		set ssnym to "hello world"		repeat with anitem in input			set itempath to stronglyquote(POSIX path of anitem)			set workdir to dirname(itempath)			set itembasename to basename(itempath)			set patharg to patharg &amp; space &amp; stronglyquote(itembasename)		end repeat		default_session()		cd_to(stronglyquote(workdir))		vim(patharg)	end tellend run</string>
+					<string>on run {input, parameters}	set logics to load script file "Applications:Vimini.app:Contents:Resources:Scripts:logics.scpt"	tell logics		set patharg to ""		set workdir to "."		set ssnym to "hello world"		repeat with anitem in input			set itempath to stronglyquote(POSIX path of anitem)			set workdir to dirname(itempath)			set itembasename to basename(itempath)			set patharg to patharg &amp; space &amp; stronglyquote(itembasename)		end repeat		default_session()		cd_to(stronglyquote(workdir))		vim(patharg)	end tellend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
